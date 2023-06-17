@@ -21,14 +21,20 @@
     padding: 40px;
     background-color: #fff;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    float: left;
-     margin:23px;
+    
      margin-top: 123px;
-     margin-bottom: 23px;
-     margin-left: 490px;
-     margin-right: 23px;
+     
      display: block;
   }
+
+
+  /* Media query for mobile devices */
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  .container{
+    font-size: 23px;
+  }
+}
   
   /* Heading styles */
   h1 {
